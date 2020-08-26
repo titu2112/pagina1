@@ -1,0 +1,110 @@
+/*--header--*/
+
+.navbar{
+margin-bottom: 0;
+background-color:#428BCA;
+border-bottom:3px solid;
+border-bottom-color:#7440ce;
+}
+/*linea negra fondo header*/
+.bg-light {
+    background-color: #080808!important;
+}
+/*color para boton de celular*/
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: rgba(0,0,0,.1);
+}
+/*color boton jesus martinez */
+.navbar-light .navbar-brand  {
+    color: rgb(255 255 255);
+     
+}
+/*color boton jesus martinez mouse arriba*/
+.navbar-light .navbar-brand:hover {
+    color:#7440ce;
+}
+/* boton link*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+/*boton link y drow cuando mouse esta arriba*/
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#7440ce;
+   }	
+/*color resto del navbar*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 248 248 / 50%);
+}
+/*color de menu desplegable*/
+.dropdown-item:hover {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #000000;
+    text-align: inherit;
+    white-space: nowrap;
+    color: #428BCA;
+    border: 0;
+}
+/*baner bajo de menu*/
+.jumbotron1{
+	background:#428BCA;
+	color:#fff;
+	padding:30px 0;
+}
+/*texto dentro del banner*/
+.titulo-blog{
+	font-size:100px;
+}
+.rounded {
+    border-radius: 250px!important;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #5246cc;
+    border-color: #6c757d;
+}
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #000000;
+    border-color: #6c757d;
+}
+.btn-primary:hover {
+    color: #c5c5c5;
+    background-color: #000000;
+    border-color:#000000;
+}
+.text-muted {
+    color: #2987da!important;
+}
+.btn-primary {
+    color: #c5c5c5;
+    background-color: #5246cc;
+    border-color:#5246cc;
+}
+.carousel-indicators li {
+ background-color: #7440ce;
+}
+ 
+footer{
+	border-top:3px solid;
+	border-top-color:#7440ce;
+	text-align: center;
+	background-color:#000000;
+	color:#fff; 
+	
+}
+footer ul li {
+	list-style: none;
+	
+}
+footer ul  {
+	list-style: none;
+	
+}
+hr{
+	background-color:#7440ce; 
+}
